@@ -40,12 +40,6 @@ AURA is a different deal. It's a language anyone can use. You write a short scri
 
 No algorithm owns your ears. No hit song hijacks your hippocampus. You are the compiler.
 
-## What's Next
-
-Alec is putting the .aura specification on GitHub. Open source. Anyone can fork it, add their own neuro-state definitions, build a CLI, connect it to Apple Music or local FLAC files.
-
-He still needs a job. But today, for six hours, he had full control over his own brain. That's not nothing.
-
 ---
 
 **Case study conducted. Grounded. Ready for the repo.**

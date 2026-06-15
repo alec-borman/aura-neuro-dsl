@@ -39,7 +39,3 @@ The commercial music industry optimizes for *time on app*. Not focus. Not recove
 AURA is a different deal. It's a language anyone can use. You write a short script. You feed it to any half-decent LLM. You get back a playlist that is guaranteed to be a great time until you leave for dinner.
 
 No algorithm owns your ears. No hit song hijacks your hippocampus. You are the compiler.
-
----
-
-**Case study conducted. Grounded. Ready for the repo.**

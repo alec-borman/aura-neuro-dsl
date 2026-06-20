@@ -1,14 +1,18 @@
-## aura-protocol
+# aura-protocol
 
-A declarative Domain-Specific Language (DSL) and LLM prompt harness for deterministic neuro-acoustic gradient synthesis and cognitive load management.
+**A deterministic neuro-acoustic Domain-Specific Language (DSL) and LLM prompt harness for cognitive sovereignty.**
 
 ---
 
-## Architectural Overview
+## The Manifesto: Reclaiming the Acoustic Scaffold
 
-Commercial music recommendation engines are designed as engagement traps. They leverage black-box collaborative filtering to optimize for platform retention, resulting in "algorithmic over-saturation." This causes cognitive habituation: your brain anticipates the melodic and rhythmic structures of heavily repeated tracks, shifting resources to memory processing instead of maintaining executive focus.
+Commercial music recommendation engines are adversarial to human attention. Driven by black-box collaborative filtering, they are built to optimize a single metric: *time-on-app*. The result is algorithmic over-saturation. They feed your brain highly predictable, heavily repeated structures that induce cognitive habituation. Your prefrontal cortex disengages, memory centers take over, and your focus fragments. You stop thinking and start scrolling.
 
-`aura-protocol` treats an audio stream as a programmable neuro-acoustic scaffold. Instead of querying by genre, style, or acoustic metadata, the `.aura` specification allows engineers to construct explicit neuro-chemical state trajectories. By providing a strict declarative harness to frontier large language models (such as Gemini 3.1 Pro or DeepSeek Expert), the system compiles highly variable, low-saturation audio histories into deterministic execution loops optimized for self-directed deep work, context switching, and cognitive resilience.
+**The AURA Protocol treats your audio stream as a programmable neuro-acoustic scaffold.**
+
+Instead of asking a passive algorithm for a "chill focus vibe," AURA provides a strict, declarative grammar to engineer your own neurochemical trajectory. By strapping a rigid deterministic harness over a frontier Large Language Model (e.g., Gemini 3.1 Pro, DeepSeek Expert), the system forces the AI to act as a strict code compiler. It parses your unstructured listening history, filters out mainstream saturation, and outputs a mathematically verified execution loop designed for deep work, rapid context switching, and physiological recovery.
+
+No algorithm owns your ears. You are the compiler.
 
 ### System Pipeline
 
@@ -42,17 +46,17 @@ graph LR
 
 ---
 
-## Neurochemical Target Vectors
+## The Math: Neurochemical Target Vectors
 
-The protocol translates acoustic primitives into three core biometric vectors. The mathematical state of any given audio block $S$ is defined as a point in the neuro-acoustic tensor space:
+AURA translates qualitative acoustic features into quantitative biometric targets. The state of any given audio block $S$ is explicitly plotted in a 3-dimensional neuro-acoustic tensor space:
 
 $$S = \begin{bmatrix} P_e \\ K_s \\ A_s \end{bmatrix}$$
 
-* **Prediction Error ($P_e$) — Dopaminergic Regulation:** Measures the structural novelty and syncopation density of an arrangement. High $P_e$ ($P_e \ge 0.80$) introduces micro-timing variations and harmonic unpredictability. This actively triggers dopamine synthesis by forcing the brain's predictive coding networks to continuously recalibrate, overriding task-initiation inertia.
-* **Kinetic Salience ($K_s$) — Norepinephrine Regulation:** Controls the rhythmic weight, transient sharpness, and structural sub-bass velocity. Low $K_s$ preserves a low autonomic arousal state, while high $K_s$ provides physical gravity, regulating motor-cortex readiness.
-* **Acoustic Safety ($A_s$) — Serotoninergic Shielding:** Maps to warm, analog mid-range frequencies, organic instrumentation, and highly predictable chord progressions. High $A_s$ ($A_s \ge 0.85$) lowers systemic cortisol and stabilizes the parasympathetic nervous system, isolating analytical processing centers from stress.
+* **Prediction Error ($P_e$) — Dopaminergic Regulation:** Measures structural novelty and syncopation density. High $P_e$ ($P_e \ge 0.80$) introduces micro-timing variations and unpredictability. This forces the brain's predictive coding networks to continuously recalibrate, triggering dopamine synthesis and overriding task-initiation inertia.
+* **Kinetic Salience ($K_s$) — Norepinephrine Regulation:** Controls rhythmic weight, transient sharpness, and sub-bass velocity. Low $K_s$ preserves a low autonomic arousal state, while high $K_s$ provides physical gravity, regulating adrenergic alertness and motor-cortex readiness.
+* **Acoustic Safety ($A_s$) — Serotoninergic Shielding:** Maps to warm, analog mid-range frequencies and organic instrumentation. High $A_s$ ($A_s \ge 0.85$) lowers systemic cortisol, insulates the parasympathetic nervous system, and shields analytical processing centers from threat-detection spikes.
 
-### Ultradian Execution Cycle
+### The Ultradian Execution Cycle
 
 ```mermaid
 stateDiagram-v2
@@ -85,9 +89,9 @@ stateDiagram-v2
 
 ---
 
-## Language Specification (v2.0.0)
+## The Code: Language Specification (v2.0.0)
 
-The `.aura` grammar enforces deterministic execution boundaries. Below is the production-grade language specification template for structural execution.
+The `.aura` grammar enforces deterministic boundaries. It prevents LLMs from guessing. Below is the production-grade specification template for a standard 90-minute deep-work execution block.
 
 ```actionscript
 // target-engine: aura-compiler-v2.0.0
@@ -97,7 +101,7 @@ aura "2.0" {
   meta @{
     session_id:            "<YOUR_SESSION_IDENTIFIER>", // e.g., "tx_gulf_coast_overcast"
     cycle_framework:       "ultradian_90m",
-    novelty_bias:          1.00, // Absolute filter: eliminates top 20% streaming volume hits
+    novelty_bias:          1.00, // Absolute filter: invalidates top-tier streaming volume hits
     telemetry_routing:     "oracle_directives_only"
   }
 
@@ -144,13 +148,11 @@ aura "2.0" {
 
 ---
 
-## Operational Core: The LLM Harness Pipeline
+## The Harness: Forcing the LLM into Compilation
 
-The primary utility of `aura-protocol` is providing the prompt harness that forces an advanced LLM to act as a strict deterministic compiler. It prevents the model from writing cinematic narratives or hallucinating generic playlists, converting it instead into an absolute token-to-acoustic parsing engine.
+LLMs naturally want to act as helpful, chatty assistants generating vague, hallucinated playlists. `aura-protocol` strips this away. By injecting the following system contract, the model is forced to operate purely as an execution engine, mapping cultural acoustic priors to strict tensor math.
 
-### The System Compilation Prompt
-
-To initialize a frontier model as an AURA 2.0 compiler, inject the following system contract:
+### System Compilation Prompt
 
 ```text
 [SYSTEM INTERFACE: AURA_COMPILER_V2]
@@ -183,9 +185,9 @@ To initialize a frontier model as an AURA 2.0 compiler, inject the following sys
 
 ### Reference Pipeline Resolution
 
-*(The following is a reference output demonstrating how the compiler resolves an overcast, high-friction context into a functional acoustic trajectory).*
+*(A reference output demonstrating the compiler bridging an overcast, high-friction ambient state into pure architectural flow).*
 
-| Order | Track | Core Target State | Mathematical Vector Assignment | Cognitive Function |
+| Order | Track | Core Target State | Mathematical Vector Assignment | Diagnostic Notes |
 | --- | --- | --- | --- | --- |
 | **01** | *Memory Reboot (Slowed)* - VØJ; Narvent | `TASK_INITIATION` | $[0.80, 0.15, 0.90]$ | Matches the brooding external atmosphere. High $A_s$ grounds the nervous system without a cortisol spike. |
 | **02** | *Elevator Pitch* - j ember | `TASK_INITIATION` | $[0.82, 0.45, 0.80]$ | Gritty rhythm introduces baseline $K_s$ to break desk inertia. |
@@ -197,16 +199,16 @@ To initialize a frontier model as an AURA 2.0 compiler, inject the following sys
 
 ## Repository Scope & Ecosystem Development
 
-This repository currently serves as the foundational architectural specification. It contains:
+This repository currently serves as the foundational architectural specification for the cognitive protocol. It contains:
 
 1. The formal `.aura` language specification and tensor mathematics.
 2. The LLM compiler prompt harness.
-3. Documented execution case studies.
+3. Documented real-world execution case studies.
 
-The implementation framework is strictly decoupled. The community is invited to build out the execution layer. If you are developing edge tools for this ecosystem, we recommend following this modular tree architecture for your forks or pull requests:
+**The implementation framework is strictly decoupled and open for community expansion.** If you are developing edge tools to turn this theoretical harness into automated client-side software, we recommend following this modular tree architecture:
 
 * `/compiler`: Core system prompts, semantic parsers, and validation tooling for LLM API integration.
 * `/cli`: Rust, Go, or Python-based interface tools for local parsing of `.aura` script files.
-* `/adapters`: Middleware connectors for resolving compiled tracks to specific streaming platform track IDs (Spotify API, Apple Music Web API, local FLAC storage maps).
+* `/adapters`: Middleware connectors for resolving compiled tracks to specific streaming platform endpoints (Spotify API, Apple Music Web API, local FLAC storage maps).
 
 To submit a pull request for custom neuro-state configurations, append your definitions to the `/core/states.lib` file with a comprehensive explanation of the mathematical parameter weighting.

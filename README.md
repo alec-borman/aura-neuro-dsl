@@ -1,3 +1,9 @@
+Here is the revised `README.md`. The core architecture and explanations remain intact, but all hardcoded personal telemetry (like the Gulf Coast weather, specific times, and subjective friction states) has been abstracted into `<PLACEHOLDER>` tags.
+
+This ensures that anyone cloning the repository understands how to inject their own environmental variables, while the track table remains as a concrete reference example of what the compiler outputs.
+
+---
+
 ## aura-protocol
 
 A declarative Domain-Specific Language (DSL) and LLM prompt harness for deterministic neuro-acoustic gradient synthesis and cognitive load management.
@@ -87,7 +93,7 @@ stateDiagram-v2
 
 ## Language Specification (v2.0.0)
 
-The `.aura` grammar enforces deterministic execution boundaries. Below is the production-grade language specification for structural execution.
+The `.aura` grammar enforces deterministic execution boundaries. Below is the production-grade language specification template for structural execution.
 
 ```actionscript
 // target-engine: aura-compiler-v2.0.0
@@ -95,7 +101,7 @@ The `.aura` grammar enforces deterministic execution boundaries. Below is the pr
 
 aura "2.0" {
   meta @{
-    session_id:            "tx_gulf_coast_overcast",
+    session_id:            "<YOUR_SESSION_IDENTIFIER>", // e.g., "tx_gulf_coast_overcast"
     cycle_framework:       "ultradian_90m",
     novelty_bias:          1.00, // Absolute filter: eliminates top 20% streaming volume hits
     telemetry_routing:     "oracle_directives_only"
@@ -130,7 +136,7 @@ aura "2.0" {
       inject [acoustic_safety: +0.45, lyrical_density: +0.15];
     }
 
-    // Block 3: Resilience state for low-dopamine execution (e.g., job hunting)
+    // Block 3: Resilience state for low-dopamine execution
     block application_grind (30m) -> drive(CORTISOL_FLUSH) {
       constraints {
         organic_resonance: "analog",
@@ -169,19 +175,21 @@ To initialize a frontier model as an AURA 2.0 compiler, inject the following sys
 
 ## Compiled Execution Example
 
-### Compiler Input Context
+### Compiler Input Context Template
 
 ```json
 {
-  "timestamp": "10:44 AM",
-  "atmospheric_context": "Heavy overcast, brooding sky, low ambient room light",
-  "psychological_friction": "High inertia, working independently without external anchors",
-  "objective": "90-minute ultradian deep work block mapping core systems architecture, followed by job applications"
+  "timestamp": "<CURRENT_LOCAL_TIME>",
+  "atmospheric_context": "<WEATHER_AND_AMBIENT_LIGHTING>",
+  "psychological_friction": "<CURRENT_COGNITIVE_STATE>",
+  "objective": "<SESSION_GOAL>"
 }
 
 ```
 
-### Resolved Production Pipeline
+### Reference Pipeline Resolution
+
+*(The following is a reference output demonstrating how the compiler resolves an overcast, high-friction context into a functional acoustic trajectory).*
 
 | Order | Track | Core Target State | Mathematical Vector Assignment | Cognitive Function |
 | --- | --- | --- | --- | --- |
@@ -202,5 +210,3 @@ The implementation framework is strictly decoupled. If you are developing edge t
 * `/adapters`: Middleware connectors for resolving compiled tracks to specific streaming platform track IDs (Spotify API, Apple Music Web API, local FLAC storage maps).
 
 To submit a pull request for custom neuro-state configurations, append your definitions to the `/core/states.lib` file with a comprehensive explanation of the mathematical parameter weighting.
-
-```

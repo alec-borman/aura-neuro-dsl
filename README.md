@@ -1,9 +1,3 @@
-Here is the revised `README.md`. The core architecture and explanations remain intact, but all hardcoded personal telemetry (like the Gulf Coast weather, specific times, and subjective friction states) has been abstracted into `<PLACEHOLDER>` tags.
-
-This ensures that anyone cloning the repository understands how to inject their own environmental variables, while the track table remains as a concrete reference example of what the compiler outputs.
-
----
-
 ## aura-protocol
 
 A declarative Domain-Specific Language (DSL) and LLM prompt harness for deterministic neuro-acoustic gradient synthesis and cognitive load management.

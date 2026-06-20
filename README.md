@@ -195,12 +195,18 @@ To initialize a frontier model as an AURA 2.0 compiler, inject the following sys
 
 ---
 
-## Contributing & Interface Specifications
+## Repository Scope & Ecosystem Development
 
-The implementation framework is strictly decoupled. If you are developing edge tools for this repository, follow the modular tree architecture below:
+This repository currently serves as the foundational architectural specification. It contains:
 
-* `/compiler`: Contains the core system prompts, semantic parsers, and validation tooling for Gemini and DeepSeek API integration.
-* `/cli`: Rust-based interface tool for local parsing of `.aura` script files (`aura build workflow.aura`).
+1. The formal `.aura` language specification and tensor mathematics.
+2. The LLM compiler prompt harness.
+3. Documented execution case studies.
+
+The implementation framework is strictly decoupled. The community is invited to build out the execution layer. If you are developing edge tools for this ecosystem, we recommend following this modular tree architecture for your forks or pull requests:
+
+* `/compiler`: Core system prompts, semantic parsers, and validation tooling for LLM API integration.
+* `/cli`: Rust, Go, or Python-based interface tools for local parsing of `.aura` script files.
 * `/adapters`: Middleware connectors for resolving compiled tracks to specific streaming platform track IDs (Spotify API, Apple Music Web API, local FLAC storage maps).
 
 To submit a pull request for custom neuro-state configurations, append your definitions to the `/core/states.lib` file with a comprehensive explanation of the mathematical parameter weighting.

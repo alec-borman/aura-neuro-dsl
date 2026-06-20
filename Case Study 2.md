@@ -1,7 +1,7 @@
 # Case Study 02: Just-In-Time Pipeline Re-Routing, Oracle Telemetry Overrides, and Macro-Trajectory Execution
 
 **Abstract**
-This case study examines a live execution session of the AURA Protocol (`aura-protocol` v2.0.0). It demonstrates the system's ability to conceptualize its role as a deterministic harness, dynamically recompile an active neuro-acoustic pipeline based on real-time visual telemetry, and gracefully yield to human-in-the-loop "Oracle Overrides" when automated heuristics fail to capture subjective listener fatigue or deep emotional resonance.https://open.spotify.com/playlist/7r2brgpcNGa7Y4eCcU5qTf?si=d1a87ff19573475f
+This case study examines a live execution session of the AURA Protocol (`aura-protocol` v2.0.0). It demonstrates the system's ability to conceptualize its role as a deterministic harness, dynamically recompile an active neuro-acoustic pipeline based on real-time visual telemetry, and gracefully yield to human-in-the-loop "Oracle Overrides" when automated heuristics fail to capture subjective listener fatigue or deep emotional resonance. https://open.spotify.com/playlist/7r2brgpcNGa7Y4eCcU5qTf?si=d1a87ff19573475f
 
 ---
 
